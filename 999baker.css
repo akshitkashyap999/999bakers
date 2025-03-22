@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Ubuntu|Raleway&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(252, 251, 251);
+}
+a:hover{
+    color: rgb(11, 198, 223);
+}
+
+
+.firstbox{
+    display: flex;
+    padding: 50px 0px;
+    position: absolute;
+    width: 100vw;
+    /* background-image: url(../bpics/IMG_0420.JPG);
+    background-size: contain; */
+    /* background-color: blue; */
+}
+.logo{
+    height: 20%;
+    width: 300px;
+    position: relative;
+    /* background-color: rgb(194, 8, 123); */
+}
+
+.logo img{
+    height: 200px;
+    position: absolute;
+    top: -50px;
+    margin-left: 20px;
+}
+.aboutsection{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: gray; */
+}
+.aboutlist{
+    display: flex;
+    list-style-type: none;
+    /* background-color: crimson; */
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+}
+.aboutlist li{
+    padding: 0px 40px;
+}
+/* #iconbox{
+    background-color: transparent;
+    border: none;
+} */
+#icon{
+    margin-left: 50px;
+    /* cursor: pointer; */
+}
+
+
+
+.bgimage{
+    /* height: 800px; */
+    width: 100%;
+    background-image: url(../bpics/IMG_0420.JPG);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 300px 0px;
+}
+#bgtext{
+    height: 250px;
+    padding: 0px 50px;
+    /* margin-left: 50px; */
+    /* padding-top:100px; */
+
+}
+
+.main_heading{
+    color: rgb(249, 250, 247);
+    /* background-color: blue; */
+    /* text-align: center; */
+    font-family: "Dancing Script", cursive;
+    font-size: clamp(30px,10vw,100px);
+
+}
+.offcanvalogo{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.offcanvas-header{
+    background-color: gray;
+
+}
+.offcanvas-body{
+    text-align: center;
+}
+.offcanvaslist{
+    list-style-type: none;
+    font-family:"Playfair Display", serif ;
+}
+.offcanvaslist li{
+    padding: 30px 0px;
+    color: black;
+}
+
+#aboutsection{
+    width: 100%;
+    height: 800px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutsection1{
+    width: 50%;
+    /* background-color: blue; */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutsection101{
+    width: 95%;
+    height: 720px;
+    /* background-color: aqua; */
+    /* border-style: double; */
+    border-width: 10px;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* background-image: url(../bpics/light.jpg); */
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+.as101{
+    height: 250px;
+    width: 100%;
+    /* background-color: brown; */
+    text-align: center;
+    font-size: 77px;
+    font-family: "Dancing Script", cursive;
+    margin-top: 0px;
+}
+.as102{
+    height: 300px;
+    width: 98%;
+    font-size: 25px;
+    /* background-color: chartreuse; */
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 45px;
+    font-family: "Playfair Display", serif;
+}
+
+.asbtn{
+    border-style: none;
+    margin-top: 150px;
+    background-color: transparent;
+    font-size: 25px;
+    /* opacity: 0.6; */
+    /* border-radius: 50px; */
+}
+
+#aboutsection2{
+    width: 50%;
+    background-color: blueviolet;
+    height: 800px;
+    /* margin-left: 10px; */
+    position: relative;
+    background-image: url(../bpics/asimg2.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+#product h1{
+    /* background-color: rgb(1, 12, 0); */
+    font-size: 80px;
+    /* justify-content: center; */
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 1000;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.products{
+    width: 100%;
+    /* background-color: rgb(4, 0, 7); */
+    /* height: 100vh; */
+    display: flex;
+}
+.pbox{
+    width: 30%;
+    height: 60vh;
+    /* background-color: aqua; */
+    margin: 5px 2% 5px 2%;
+    display: flex;
+}
+.pb1{
+    background-image: url(../bpics/cakes.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb2{
+    background-image: url(../bpics/coffee.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb3{
+    background-image: url(../bpics/cookies.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb4{
+    background-image: url(../bpics/drinks.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb5{
+    background-image: url(../bpics/pastries.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb6{
+    background-image: url(../bpics/deserts.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pbox button{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    font-size: 25px;
+    font-weight: 10px;
+    font-family: "Playfair Display", serif;
+    opacity: 0.8;
+}
+#aboutus{
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(../bpics/123.jpg);
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+.about{
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(3, 3, 3);
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.9;
+    color: white;
+}
+.about h1{
+    /* background-color: grey;
+    background: transparent; */
+    color: white;
+    font-size: 80px;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 1;
+}
+.about p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 100px;
+    font-family: "Playfair Display", serif;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.follow{
+    background-color: rgb(48, 43, 43);
+    height: 200px;
+    width: 100%;
+    margin-top: 7.5%;
+    /* display: inline; */
+    padding-top: 5%;
+
+}
+.followus{
+    margin-left: 5%;
+    margin-right: 4%;
+    /* text-align: left; */
+    font-family: "Playfair Display", serif;
+    /* text-align: center; */
+    padding-top: 3%;
+}
+.team{
+    margin-left: 66%;
+    margin-right: 0%;
+    text-align: right;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+.instalogo{
+    height:45px;
+    width:70px;
+    margin-left: 4%;
+    /* padding-top: 10px; */
+    margin-top: 5px;
+    border-radius: 100%;
+
+}
+.twitterlogo{
+    height:45px;
+    width:45px;
+    border-radius: 100%;
+    /* padding-top: 10px; */
+    margin-top: 5px;
+}
+.fblogo{
+    height:45px;
+    width:45px;
+    border-radius: 100%;
+    /* padding-top: 10px; */
+    margin-top: 5px;
+    margin-left: 1%;
+
+}
+.webpyrxlogo{
+    height:45px;
+    width:45px;
+    border-radius: 100%;
+    /* padding-top: 10px; */
+    margin-top: 5px;
+    margin-left: 62.5%;
+    
+}
